@@ -24,7 +24,7 @@ const HeroSection = () => {
               sequence={[
                 "Samarpan Mohanty",
                 1000,
-                "CS Student",
+                "CE Student",
                 1000,
                 "Web Developer",
                 1000,
@@ -37,8 +37,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Currently DPS student majoring PCM and Computer Science,
-            Applying for Bachelors in Computer Science.
+            Currently Pursuing Bachelors in Computer Engineering.
           </p>
           <div>
             <Link
@@ -47,7 +46,7 @@ const HeroSection = () => {
             >
               Contact Me
             </Link>
-            <a href="https://firebasestorage.googleapis.com/v0/b/codeday-32a37.appspot.com/o/samu-dox.pdf?alt=media&token=52f3039a-52d9-447c-846e-f029c98a1fa0" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
+            <a href="https://drive.google.com/file/d/1Uc0XXP8AklBfbZuodHXdrrrdg8Xyhe5K/view?usp=sharing" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 View CV
               </span>
