@@ -19,6 +19,8 @@ const TAB_DATA = [
         <li>HTML</li>
         <li>CSS</li>
         <li>C++</li>
+        <li>C#</li>
+        <li>C</li>
         <li>Python</li>
         <li>JAVA</li>
         <li>SQL</li>
@@ -33,6 +35,7 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
+        <li>University of Nebraska,Licoln (US)</li>
         <li>DPS Faridabad,India</li>
       </ul>
     ),
