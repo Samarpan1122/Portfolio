@@ -7,6 +7,16 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "Corniverse",
+    description:
+      "Corniverse is an immersive space simulation designed to answer one of humanity's most interesting questions: How much corn can we grow on Earth and Mars? Through a combination of 3D models, AI-driven predictions, and interactive features.",
+    image: "/images/projects/corniverse.png",
+    tag: ["All", "Programming"],
+    gitUrl: "https://github.com/Samarpan1122/Corniverse",
+    previewUrl: "https://corniverse.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Chat4fun",
     description:
       "Chatting Webapp that Block out inappropriate content automatically before sending.",
@@ -16,7 +26,7 @@ const projectsData = [
     previewUrl: "https://www.chat4fun.me/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Website-Builder-Python-Openai",
     description: "Website builder made using openai api",
     image: "/images/projects/python.png",
@@ -26,7 +36,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Website-Translator-with-GoogleTranslate",
     description:
       "Uses older version of google translate without any api and without showing the banner. You can change the language by editing translate.js.",
@@ -37,7 +47,7 @@ const projectsData = [
     previewUrl: "https://host-theta.vercel.app/",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website",
     description: "This website is made using Next.js and Tailwind CSS.",
     image: "/images/projects/port.png",
@@ -46,7 +56,7 @@ const projectsData = [
     previewUrl: "samarpan-portfolio.netlify.app",
   },
   {
-    id: 5,
+    id: 6,
     title: "Morse Code Keyer with raspberry pi",
     description:
       "Morse code keyer with raspberry pi pico which can be used to send morse code over internet.",
@@ -56,7 +66,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 7,
     title: "Weather Station with raspberry pi",
     description:
       "Weather Station with raspberry pi and sensors which can be accessed from anywhere.",
@@ -66,7 +76,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 7,
+    id: 8,
     title: "Mini Portable Game Console with raspberry pi",
     description:
       "Mini Portable Game Console with raspberry pi pico with audio,can run Java script games.",
@@ -76,7 +86,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 8,
+    id: 9,
     title: "Controll over wifi car with raspberry pi",
     description:
       "Remote controll  car made with raspberry pi which can be controlled from phone.",
