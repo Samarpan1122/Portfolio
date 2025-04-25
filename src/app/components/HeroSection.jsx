@@ -46,7 +46,7 @@ const HeroSection = () => {
             >
               Contact Me
             </Link>
-            <a href="https://drive.google.com/file/d/1Uc0XXP8AklBfbZuodHXdrrrdg8Xyhe5K/view?usp=sharing" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
+            <a href="https://drive.google.com/file/d/1aoqTTKTxssyspV0uNk2GaWQW-FNw0FGn/view?usp=sharing" className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3">
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 View CV
               </span>
