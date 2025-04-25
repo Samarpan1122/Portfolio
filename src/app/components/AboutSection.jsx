@@ -22,6 +22,9 @@ const TAB_DATA = [
         <li>C#</li>
         <li>C</li>
         <li>Python</li>
+        <li>Pytorch</li>
+        <li>Machine Learning</li>
+        <li>Deep Learning</li>
         <li>JAVA</li>
         <li>SQL</li>
         <li>Firebase</li>
@@ -35,8 +38,8 @@ const TAB_DATA = [
     id: "education",
     content: (
       <ul className="list-disc pl-2">
-        <li>University of Nebraska,Licoln (US)</li>
-        <li>DPS Faridabad,India</li>
+        <li>University of Nebraska, Lincoln (US)</li>
+        <li>DPS Faridabad, India</li>
       </ul>
     ),
   },
@@ -50,7 +53,7 @@ const TAB_DATA = [
         <li>IIT Delhi</li>
         <li>Hackclub</li>
         <li>DPS Society</li>
-        <li>Ankush Mehta(CS Professor),DPS</li>
+        <li>Ankush Mehta (CS Professor), DPS</li>
       </ul>
     ),
   },
@@ -60,7 +63,7 @@ const TAB_DATA = [
     content: (
       <ul className="list-disc pl-2">
         <li>Arduino</li>
-        <li>Raspberry pi</li>
+        <li>Raspberry Pi</li>
         <li>ESP32</li>
         <li>PCB Designing</li>
       </ul>
@@ -71,22 +74,25 @@ const TAB_DATA = [
     id: "prizes",
     content: (
       <ul className="list-disc pl-2">
-        <li>
-          Listed as Project of the week and rewarded a Raspberry Pi by PCBWay
-        </li>
+        <li>Listed as Project of the week and rewarded a Raspberry Pi by PCBWay</li>
         <li>Fourth prize in Interschool Hackathon</li>
-        <li>From Google code to finish in top 10</li>
+        <li>From Google Code to finish in top 10</li>
         <li>From HPE to finish in top 100</li>
-        <li>Fourth prize in All India Hackathon at IIT Dehi</li>
+        <li>Fourth prize in All India Hackathon at IIT Delhi</li>
         <li>$200 from Hackclub for best PCB design</li>
         <li>$100 for Raspberry Pi project from Hackclub</li>
+        <li>PCB dev kit with Raspberry Pi (worth $250) for my original game from Hackclub</li>
+        <li>$1000 + living expenses from Hackclub to showcase my project in San Francisco</li>
+      </ul>
+    ),
+  },
+  {
+    title: "Fellowships",
+    id: "fellowships",
+    content: (
+      <ul className="list-disc pl-2">
         <li>
-          PCB dev kit with Raspberry pi(worth $250) for my original game from
-          Hackclub
-        </li>
-        <li>
-          $1000+living expenses from Hackclub for ticket to San Francisco
-          showcase my project
+          <strong>UCARE Research Fellowship (2025–2026)</strong>: Selected for the University of Nebraska–Lincoln’s UCARE program. Awarded up to $6,240 to conduct undergraduate research under faculty mentorship.
         </li>
       </ul>
     ),
@@ -116,48 +122,31 @@ const AboutSection = () => {
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
             I am a full stack developer with a passion for creating interactive
-            and responsive applications and interesting Hardware tech. I have
-            experience working with several Languages, even particiated in
-            several hackathons,worked with several organizations. I am a quick
-            learner and I am always looking to expand my knowledge and skill
-            set. I am a team player and I am excited to work with others to
-            create amazing applications.I also like Sketching,Playing Games.
+            and responsive applications and interesting hardware tech. I have
+            experience working with several languages, participated in several
+            hackathons, and worked with various organizations. I am a quick
+            learner and always looking to expand my knowledge and skill set.
+            I am a team player and excited to collaborate on amazing projects.
+            I also enjoy sketching and gaming.
           </p>
           <div className="flex flex-row justify-start mt-8 overflow-x-auto">
-            <TabButton
-              selectTab={() => handleTabChange("skills")}
-              active={tab === "skills"}
-            >
-              {" "}
-              Skills{" "}
+            <TabButton selectTab={() => handleTabChange("skills")} active={tab === "skills"}>
+              Skills
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("education")}
-              active={tab === "education"}
-            >
-              {" "}
-              Education{" "}
+            <TabButton selectTab={() => handleTabChange("education")} active={tab === "education"}>
+              Education
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("certifications")}
-              active={tab === "certifications"}
-            >
-              {" "}
-              Certifications{" "}
+            <TabButton selectTab={() => handleTabChange("certifications")} active={tab === "certifications"}>
+              Certifications
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("Hardware skills")}
-              active={tab === "Hardware skills"}
-            >
-              {" "}
-              Hardware skills{" "}
+            <TabButton selectTab={() => handleTabChange("Hardware skills")} active={tab === "Hardware skills"}>
+              Hardware Skills
             </TabButton>
-            <TabButton
-              selectTab={() => handleTabChange("prizes")}
-              active={tab === "prizes"}
-            >
-              {" "}
-              Prizes{" "}
+            <TabButton selectTab={() => handleTabChange("prizes")} active={tab === "prizes"}>
+              Prizes
+            </TabButton>
+            <TabButton selectTab={() => handleTabChange("fellowships")} active={tab === "fellowships"}>
+              Fellowships
             </TabButton>
           </div>
           <div className="mt-8">
