@@ -22,8 +22,7 @@
 # Explicitly disable Next.js plugin
 [[plugins]]
   package = "@netlify/plugin-nextjs"
-  [plugins.inputs]
-    disable = true
+
 
 # Force npm usage by disabling yarn
 [build.processing]
