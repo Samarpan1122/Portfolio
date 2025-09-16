@@ -9,6 +9,15 @@
   SKIP_YARN_COREPACK = "true"
   YARN_PRODUCTION = "false"
   CI = "true"
+  # Skip Next.js plugin since this is a React CRA project
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+
+# Disable all plugins since this is a simple React CRA project
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+  [plugins.inputs]
+    # Disable this plugin
+    disable = true
 
 # Force npm usage by disabling yarn
 [build.processing]
