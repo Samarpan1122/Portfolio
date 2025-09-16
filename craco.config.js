@@ -12,6 +12,17 @@ module.exports = {
       "@": path.resolve(__dirname, "src"),
     },
     configure: (webpackConfig) => {
+      // Add React 19 polyfill for React 18
+      webpackConfig.resolve.alias = {
+        ...webpackConfig.resolve.alias,
+        'react/experimental': 'react',
+      };
+
+      // Add a polyfill for React 19 features
+      webpackConfig.resolve.fallback = {
+        ...webpackConfig.resolve.fallback,
+      };
+
       // Suppress source map warnings for MediaPipe packages
       webpackConfig.ignoreWarnings = [
         {
